@@ -1,4 +1,44 @@
-$mainColor: #333;
-$fontFamily: Helvetica, Arial, sans-serif;
-$linkColor: #699;
-$bgColor: #f8f8f8;
+/* font-family: "GothamPro" */
+@font-face {
+	font-family: "GothamPro";
+	src: url("../fonts/GothamProRegular.eot");
+	src: url("../fonts/GothamProRegular.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/GothamProRegular.woff") format("woff"),
+	url("../fonts/GothamProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face {
+	font-family: "GothamPro";
+	src: url("../fonts/GothamProMediumItalic.eot");
+	src: url("../fonts/GothamProMediumItalic.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/GothamProMediumItalic.woff") format("woff"),
+	url("../fonts/GothamProMediumItalic.ttf") format("truetype");
+	font-style: italic;
+	font-weight: 500;
+}
+@font-face {
+	font-family: "GothamPro";
+	src: url("../fonts/GothamProLight.eot");
+	src: url("../fonts/GothamProLight.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/GothamProLight.woff") format("woff"),
+	url("../fonts/GothamProLight.ttf") format("truetype");
+	font-style: italic;
+	font-weight: 300;
+}
+@font-face {
+	font-family: 'neucharegular';
+	src: url('../fonts/neucha-webfont.woff2') format('woff2'),
+		url('../fonts/neucha-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.container {
+	max-width: 1720px;
+	margin: auto;
+	position: relative;
+}
+
+$gotham: 'GothamPro', sans-serif;
+$neucha: 'neucharegular', sans-serif;
