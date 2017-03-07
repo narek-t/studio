@@ -1,3 +1,6 @@
+$gotham: 'GothamPro', sans-serif;
+$neucha: 'neucharegular', sans-serif;
+$transition: all .3s ease-in-out;
 /* font-family: "GothamPro" */
 @font-face {
 	font-family: "GothamPro";
@@ -27,18 +30,64 @@
 	font-weight: 300;
 }
 @font-face {
+	font-family: "GothamPro";
+	src: url("../fonts/GothamProBold.eot");
+	src: url("../fonts/GothamProBold.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/GothamProBold.woff") format("woff"),
+	url("../fonts/GothamProBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
 	font-family: 'neucharegular';
 	src: url('../fonts/neucha-webfont.woff2') format('woff2'),
 		url('../fonts/neucha-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
-
 .container {
 	max-width: 1720px;
 	margin: auto;
 	position: relative;
 }
-
-$gotham: 'GothamPro', sans-serif;
-$neucha: 'neucharegular', sans-serif;
+.btn {
+	display: inline-block;
+	text-align: center;
+	text-decoration: none;
+	height: 50px;
+	width: 230px;
+	border: 2px solid transparent;
+	transition: $transition;
+	font: 18px/50px $neucha;
+	text-transform: uppercase;
+}
+.btn--colored {
+	background: #ed687d;
+	border-color: #ed687d;
+	color: #fff;
+	&:hover {
+		background: transparent;
+		color: #ed687d;
+	}
+}
+.btn--blue {
+	background: #00afbf;
+	border-color: #00afbf;
+	color: #fff;
+	&:hover {
+		background: #ed687d;
+		border-color: #ed687d;
+		color: #fff;
+	}
+}
+.btn--bordered {
+	border-color: #00afbf;
+	color: #4e5268;
+	&:hover {
+		background: #00afbf;
+		color: #fff;
+	}
+}
+.links-wrap {
+	text-align: center;
+}
