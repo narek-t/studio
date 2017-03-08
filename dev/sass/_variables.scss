@@ -90,4 +90,8 @@ $transition: all .3s ease-in-out;
 }
 .links-wrap {
 	text-align: center;
+	p {
+		max-width: 940px;
+		margin: 0 auto 30px;
+	}
 }
