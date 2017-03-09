@@ -22,6 +22,15 @@ $transition: all .3s ease-in-out;
 }
 @font-face {
 	font-family: "GothamPro";
+	src: url("../fonts/GothamProMedium.eot");
+	src: url("../fonts/GothamProMedium.eot?#iefix")format("embedded-opentype"),
+	url("../fonts/GothamProMedium.woff") format("woff"),
+	url("../fonts/GothamProMedium.ttf") format("truetype");
+	font-style: normal;
+	font-weight: 500;
+}
+@font-face {
+	font-family: "GothamPro";
 	src: url("../fonts/GothamProLight.eot");
 	src: url("../fonts/GothamProLight.eot?#iefix")format("embedded-opentype"),
 	url("../fonts/GothamProLight.woff") format("woff"),

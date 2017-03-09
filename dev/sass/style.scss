@@ -992,8 +992,27 @@ body {
 	}
 }
 
+.person-info {
+	max-width: 900px;
+	margin: auto;
+	text-align: center;
+}
 
+.person__role,
+.person__contacts {
+	font: 500 16px/26px $gotham;
+	color: #4e5268;
+	span {
+		font-weight: 300;
+	}
+}
 
+.person__shortinfo {
+	&-title {
+		font-weight: 500;
+		font-size: 16px;
+	}
+}
 
 
 
